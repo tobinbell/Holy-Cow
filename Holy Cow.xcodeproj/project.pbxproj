@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02DD748D1D491D5000BA35BF /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD748C1D491D5000BA35BF /* DialView.swift */; };
+		02DD748F1D491F3A00BA35BF /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD748E1D491F3A00BA35BF /* Range.swift */; };
 		9C1AB4901D48006F003FEF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */; };
 		9C1AB4921D48006F003FEF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB4911D48006F003FEF8C /* ViewController.swift */; };
 		9C1AB4951D48006F003FEF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4931D48006F003FEF8C /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02DD748C1D491D5000BA35BF /* DialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
+		02DD748E1D491F3A00BA35BF /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		9C1AB48C1D48006F003FEF8C /* Holy Cow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holy Cow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C1AB4911D48006F003FEF8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02DD74901D491F4000BA35BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02DD748E1D491F3A00BA35BF /* Range.swift */,
+				9C1AB4AC1D48071A003FEF8C /* UIColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		9C1AB4831D48006F003FEF8C = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +82,8 @@
 				9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */,
 				9C1AB4911D48006F003FEF8C /* ViewController.swift */,
 				9C1AB4931D48006F003FEF8C /* Main.storyboard */,
-				9C1AB4AC1D48071A003FEF8C /* UIColor.swift */,
+				02DD748C1D491D5000BA35BF /* DialView.swift */,
+				02DD74901D491F4000BA35BF /* Extensions */,
 				9C1AB4961D48006F003FEF8C /* Assets.xcassets */,
 				9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */,
 				9C1AB49B1D48006F003FEF8C /* Info.plist */,
@@ -168,7 +182,9 @@
 			files = (
 				9C1AB4921D48006F003FEF8C /* ViewController.swift in Sources */,
 				9C1AB4AD1D48071A003FEF8C /* UIColor.swift in Sources */,
+				02DD748D1D491D5000BA35BF /* DialView.swift in Sources */,
 				9C1AB4901D48006F003FEF8C /* AppDelegate.swift in Sources */,
+				02DD748F1D491F3A00BA35BF /* Range.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +336,7 @@
 				9C1AB4A01D48006F003FEF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
