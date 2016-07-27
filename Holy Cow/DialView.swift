@@ -30,8 +30,8 @@ import UIKit
     
     override func drawRect(rect: CGRect) {
         
-        let fillThickness = bounds.width / 8
-        let strokeThickness: CGFloat = 3
+        let fillThickness = bounds.width / 9
+        let strokeThickness: CGFloat = 2
         
         let center = CGPoint(x: bounds.midX, y: bounds.midY)
         let outerRadius = bounds.width / 2 - strokeThickness / 2
