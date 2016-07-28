@@ -10,6 +10,7 @@
         <mutableArray key="Poppins-Medium.ttf">
             <string>Poppins-Medium</string>
             <string>Poppins-Medium</string>
+            <string>Poppins-Medium</string>
         </mutableArray>
         <mutableArray key="Poppins-Semibold.ttf">
             <string>Poppins-Semibold</string>
@@ -55,11 +56,11 @@
                                     <constraint firstAttribute="height" constant="20" id="eL8-dW-LL0"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w7q-7f-s1F">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7q-7f-s1F">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8g-0g-Lld" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="480"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z8g-0g-Lld" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="428"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by not eating meat for" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyw-zu-Zbc" userLabel="By Not Eating Meat">
                                                 <rect key="frame" x="90" y="20" width="195" height="28"/>
@@ -122,9 +123,47 @@
                                                 <color key="textColor" red="0.73333333329999995" green="0.80000000000000004" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKe-x0-hfG">
-                                                <rect key="frame" x="0.0" y="324" width="375" height="110"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKe-x0-hfG" userLabel="Water Statistic">
+                                                <rect key="frame" x="0.0" y="324" width="375" height="104"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svt-ri-tsC" userLabel="Content View">
+                                                        <rect key="frame" x="102" y="10" width="171" height="84"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WaterIcon" translatesAutoresizingMaskIntoConstraints="NO" id="lTt-FU-eDd" userLabel="Icon">
+                                                                <rect key="frame" x="0.0" y="0.0" width="66" height="84"/>
+                                                                <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziE-rt-P5v" userLabel="Gallons">
+                                                                <rect key="frame" x="86" y="36" width="85" height="56"/>
+                                                                <string key="text">gallons of
+water</string>
+                                                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="lTt-FU-eDd" firstAttribute="top" secondItem="svt-ri-tsC" secondAttribute="top" id="TCj-zI-ktp"/>
+                                                            <constraint firstAttribute="bottom" secondItem="ziE-rt-P5v" secondAttribute="bottom" constant="-8" id="anW-sZ-G56"/>
+                                                            <constraint firstItem="ziE-rt-P5v" firstAttribute="leading" secondItem="lTt-FU-eDd" secondAttribute="trailing" constant="20" id="kOV-Hr-cTO"/>
+                                                            <constraint firstItem="lTt-FU-eDd" firstAttribute="leading" secondItem="svt-ri-tsC" secondAttribute="leading" id="tJc-Kf-Tn8"/>
+                                                            <constraint firstAttribute="bottom" secondItem="lTt-FU-eDd" secondAttribute="bottom" id="tWZ-Jc-6K6"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ziE-rt-P5v" secondAttribute="trailing" id="x1J-bN-g4c"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.29803921568627451" green="0.77647058823529413" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="svt-ri-tsC" firstAttribute="centerX" secondItem="PKe-x0-hfG" secondAttribute="centerX" id="epu-n9-Z7l"/>
+                                                    <constraint firstItem="svt-ri-tsC" firstAttribute="centerY" secondItem="PKe-x0-hfG" secondAttribute="centerY" id="hzt-B3-E8l"/>
+                                                    <constraint firstItem="svt-ri-tsC" firstAttribute="top" secondItem="PKe-x0-hfG" secondAttribute="top" constant="10" id="jWq-YO-xXp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="svt-ri-tsC" secondAttribute="bottom" constant="10" id="qx7-Tw-XKL"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="hzt-B3-E8l"/>
+                                                    </mask>
+                                                </variation>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -219,4 +258,7 @@
             <point key="canvasLocation" x="-335" y="235"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="WaterIcon" width="66" height="84"/>
+    </resources>
 </document>
