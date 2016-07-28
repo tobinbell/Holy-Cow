@@ -16,17 +16,28 @@
 		9C1AB4951D48006F003FEF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4931D48006F003FEF8C /* Main.storyboard */; };
 		9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4961D48006F003FEF8C /* Assets.xcassets */; };
 		9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */; };
-		9C1AB4A61D4800A8003FEF8C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4A11D4800A8003FEF8C /* Poppins-Bold.ttf */; };
-		9C1AB4A71D4800A8003FEF8C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4A21D4800A8003FEF8C /* Poppins-Light.ttf */; };
-		9C1AB4A81D4800A8003FEF8C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4A31D4800A8003FEF8C /* Poppins-Medium.ttf */; };
-		9C1AB4A91D4800A8003FEF8C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4A41D4800A8003FEF8C /* Poppins-Regular.ttf */; };
-		9C1AB4AA1D4800A8003FEF8C /* Poppins-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4A51D4800A8003FEF8C /* Poppins-Semibold.ttf */; };
 		9C1AB4AD1D48071A003FEF8C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB4AC1D48071A003FEF8C /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02DD748C1D491D5000BA35BF /* HolyDialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyDialView.swift; sourceTree = "<group>"; };
 		02DD748E1D491F3A00BA35BF /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		02DD74991D4A6CE500BA35BF /* GT-Walsheim-Pro-Black-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Black-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD749A1D4A6CE500BA35BF /* GT-Walsheim-Pro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Black.ttf"; sourceTree = "<group>"; };
+		02DD749B1D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Ultra-Bold.ttf"; sourceTree = "<group>"; };
+		02DD749C1D4A6CE500BA35BF /* GT-Walsheim-Pro-Light-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Light-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD749D1D4A6CE500BA35BF /* GT-Walsheim-Pro-Bold-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Bold-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD749E1D4A6CE500BA35BF /* GT-Walsheim-Pro-Medium-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Medium-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD749F1D4A6CE500BA35BF /* GT-Walsheim-Pro-Thin-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Thin-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD74A01D4A6CE500BA35BF /* GT-Walsheim-Pro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Bold.ttf"; sourceTree = "<group>"; };
+		02DD74A11D4A6CE500BA35BF /* GT-Walsheim-Pro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Medium.ttf"; sourceTree = "<group>"; };
+		02DD74A21D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Regular-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD74A31D4A6CE500BA35BF /* GT-Walsheim-Pro-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Thin.ttf"; sourceTree = "<group>"; };
+		02DD74A41D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Ultra-Light-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD74A51D4A6CE500BA35BF /* GT-Walsheim-Pro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Light.ttf"; sourceTree = "<group>"; };
+		02DD74A61D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Regular.ttf"; sourceTree = "<group>"; };
+		02DD74A71D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf"; sourceTree = "<group>"; };
+		02DD74A81D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Pro-Ultra-Light.ttf"; sourceTree = "<group>"; };
 		9C113A541D4A1B5C00DD19E7 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		9C113A561D4A1CB500DD19E7 /* HolyNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyNavigationBar.swift; sourceTree = "<group>"; };
 		9C113A591D4A1EFA00DD19E7 /* HolyStatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyStatusBar.swift; sourceTree = "<group>"; };
@@ -36,11 +47,6 @@
 		9C1AB4961D48006F003FEF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1AB4991D48006F003FEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1AB49B1D48006F003FEF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C1AB4A11D4800A8003FEF8C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		9C1AB4A21D4800A8003FEF8C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
-		9C1AB4A31D4800A8003FEF8C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		9C1AB4A41D4800A8003FEF8C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		9C1AB4A51D4800A8003FEF8C /* Poppins-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Semibold.ttf"; sourceTree = "<group>"; };
 		9C1AB4AC1D48071A003FEF8C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,11 +115,22 @@
 		9C1AB4AB1D4800AF003FEF8C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				9C1AB4A11D4800A8003FEF8C /* Poppins-Bold.ttf */,
-				9C1AB4A21D4800A8003FEF8C /* Poppins-Light.ttf */,
-				9C1AB4A31D4800A8003FEF8C /* Poppins-Medium.ttf */,
-				9C1AB4A41D4800A8003FEF8C /* Poppins-Regular.ttf */,
-				9C1AB4A51D4800A8003FEF8C /* Poppins-Semibold.ttf */,
+				02DD74991D4A6CE500BA35BF /* GT-Walsheim-Pro-Black-Oblique.ttf */,
+				02DD749A1D4A6CE500BA35BF /* GT-Walsheim-Pro-Black.ttf */,
+				02DD749B1D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold.ttf */,
+				02DD749C1D4A6CE500BA35BF /* GT-Walsheim-Pro-Light-Oblique.ttf */,
+				02DD749D1D4A6CE500BA35BF /* GT-Walsheim-Pro-Bold-Oblique.ttf */,
+				02DD749E1D4A6CE500BA35BF /* GT-Walsheim-Pro-Medium-Oblique.ttf */,
+				02DD749F1D4A6CE500BA35BF /* GT-Walsheim-Pro-Thin-Oblique.ttf */,
+				02DD74A01D4A6CE500BA35BF /* GT-Walsheim-Pro-Bold.ttf */,
+				02DD74A11D4A6CE500BA35BF /* GT-Walsheim-Pro-Medium.ttf */,
+				02DD74A21D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular-Oblique.ttf */,
+				02DD74A31D4A6CE500BA35BF /* GT-Walsheim-Pro-Thin.ttf */,
+				02DD74A41D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light-Oblique.ttf */,
+				02DD74A51D4A6CE500BA35BF /* GT-Walsheim-Pro-Light.ttf */,
+				02DD74A61D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular.ttf */,
+				02DD74A71D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf */,
+				02DD74A81D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -176,14 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1AB4A91D4800A8003FEF8C /* Poppins-Regular.ttf in Resources */,
 				9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */,
-				9C1AB4A71D4800A8003FEF8C /* Poppins-Light.ttf in Resources */,
-				9C1AB4A61D4800A8003FEF8C /* Poppins-Bold.ttf in Resources */,
-				9C1AB4A81D4800A8003FEF8C /* Poppins-Medium.ttf in Resources */,
 				9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */,
 				9C1AB4951D48006F003FEF8C /* Main.storyboard in Resources */,
-				9C1AB4AA1D4800A8003FEF8C /* Poppins-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
