@@ -26,7 +26,7 @@ class HolyNavigationBar: UINavigationBar {
         barTintColor = .holyGreen
         
         // Set our font.
-        let titleFont = UIFont(name: "Poppins-Medium", size: 22)!
+        let titleFont = UIFont(name: "GTWalsheimPro-Medium", size: 22)!
         let titleColor = UIColor.holyWhite
         
         if titleTextAttributes != nil {

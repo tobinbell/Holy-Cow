@@ -17,6 +17,22 @@
 		9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4961D48006F003FEF8C /* Assets.xcassets */; };
 		9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */; };
 		9C1AB4AD1D48071A003FEF8C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB4AC1D48071A003FEF8C /* UIColor.swift */; };
+		9CBFF7A11D4AC0C900A6DD2A /* GT-Walsheim-Pro-Black-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74991D4A6CE500BA35BF /* GT-Walsheim-Pro-Black-Oblique.ttf */; };
+		9CBFF7A21D4AC0C900A6DD2A /* GT-Walsheim-Pro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749A1D4A6CE500BA35BF /* GT-Walsheim-Pro-Black.ttf */; };
+		9CBFF7A31D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749B1D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold.ttf */; };
+		9CBFF7A41D4AC0C900A6DD2A /* GT-Walsheim-Pro-Light-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749C1D4A6CE500BA35BF /* GT-Walsheim-Pro-Light-Oblique.ttf */; };
+		9CBFF7A51D4AC0C900A6DD2A /* GT-Walsheim-Pro-Bold-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749D1D4A6CE500BA35BF /* GT-Walsheim-Pro-Bold-Oblique.ttf */; };
+		9CBFF7A61D4AC0C900A6DD2A /* GT-Walsheim-Pro-Medium-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749E1D4A6CE500BA35BF /* GT-Walsheim-Pro-Medium-Oblique.ttf */; };
+		9CBFF7A71D4AC0C900A6DD2A /* GT-Walsheim-Pro-Thin-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749F1D4A6CE500BA35BF /* GT-Walsheim-Pro-Thin-Oblique.ttf */; };
+		9CBFF7A81D4AC0C900A6DD2A /* GT-Walsheim-Pro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A01D4A6CE500BA35BF /* GT-Walsheim-Pro-Bold.ttf */; };
+		9CBFF7A91D4AC0C900A6DD2A /* GT-Walsheim-Pro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A11D4A6CE500BA35BF /* GT-Walsheim-Pro-Medium.ttf */; };
+		9CBFF7AA1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A21D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular-Oblique.ttf */; };
+		9CBFF7AB1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A31D4A6CE500BA35BF /* GT-Walsheim-Pro-Thin.ttf */; };
+		9CBFF7AC1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Light-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A41D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light-Oblique.ttf */; };
+		9CBFF7AD1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A51D4A6CE500BA35BF /* GT-Walsheim-Pro-Light.ttf */; };
+		9CBFF7AE1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A61D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular.ttf */; };
+		9CBFF7AF1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A71D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf */; };
+		9CBFF7B01D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A81D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -193,9 +209,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBFF7AB1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Thin.ttf in Resources */,
+				9CBFF7A51D4AC0C900A6DD2A /* GT-Walsheim-Pro-Bold-Oblique.ttf in Resources */,
 				9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */,
+				9CBFF7AE1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular.ttf in Resources */,
+				9CBFF7A71D4AC0C900A6DD2A /* GT-Walsheim-Pro-Thin-Oblique.ttf in Resources */,
+				9CBFF7AA1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular-Oblique.ttf in Resources */,
 				9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */,
+				9CBFF7A91D4AC0C900A6DD2A /* GT-Walsheim-Pro-Medium.ttf in Resources */,
 				9C1AB4951D48006F003FEF8C /* Main.storyboard in Resources */,
+				9CBFF7A21D4AC0C900A6DD2A /* GT-Walsheim-Pro-Black.ttf in Resources */,
+				9CBFF7A81D4AC0C900A6DD2A /* GT-Walsheim-Pro-Bold.ttf in Resources */,
+				9CBFF7AD1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Light.ttf in Resources */,
+				9CBFF7B01D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Light.ttf in Resources */,
+				9CBFF7AC1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Light-Oblique.ttf in Resources */,
+				9CBFF7A11D4AC0C900A6DD2A /* GT-Walsheim-Pro-Black-Oblique.ttf in Resources */,
+				9CBFF7A31D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Bold.ttf in Resources */,
+				9CBFF7A41D4AC0C900A6DD2A /* GT-Walsheim-Pro-Light-Oblique.ttf in Resources */,
+				9CBFF7A61D4AC0C900A6DD2A /* GT-Walsheim-Pro-Medium-Oblique.ttf in Resources */,
+				9CBFF7AF1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

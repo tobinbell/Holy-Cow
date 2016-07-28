@@ -40,8 +40,22 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>GT-Walsheim-Pro-Medium.ttf</string>
+		<string>GT-Walsheim-Pro-Ultra-Light.ttf</string>
+		<string>GT-Walsheim-Pro-Light.ttf</string>
+		<string>GT-Walsheim-Pro-Thin.ttf</string>
 		<string>GT-Walsheim-Pro-Regular.ttf</string>
+		<string>GT-Walsheim-Pro-Medium.ttf</string>
+		<string>GT-Walsheim-Pro-Bold.ttf</string>
+		<string>GT-Walsheim-Pro-Black.ttf</string>
+		<string>GT-Walsheim-Pro-Ultra-Bold.ttf</string>
+		<string>GT-Walsheim-Pro-Ultra-Light-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Light-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Thin-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Regular-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Medium-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Bold-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Black-Oblique.ttf</string>
+		<string>GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf</string>
 	</array>
 </dict>
 </plist>
