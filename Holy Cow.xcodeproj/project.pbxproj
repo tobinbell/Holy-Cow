@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02DD748D1D491D5000BA35BF /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD748C1D491D5000BA35BF /* DialView.swift */; };
+		02DD748D1D491D5000BA35BF /* HolyDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD748C1D491D5000BA35BF /* HolyDialView.swift */; };
 		02DD748F1D491F3A00BA35BF /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD748E1D491F3A00BA35BF /* Range.swift */; };
+		9C113A551D4A1B5C00DD19E7 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C113A541D4A1B5C00DD19E7 /* UINavigationBar.swift */; };
+		9C113A571D4A1CB500DD19E7 /* HolyNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C113A561D4A1CB500DD19E7 /* HolyNavigationBar.swift */; };
+		9C113A5A1D4A1EFA00DD19E7 /* HolyStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C113A591D4A1EFA00DD19E7 /* HolyStatusBar.swift */; };
 		9C1AB4901D48006F003FEF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */; };
-		9C1AB4921D48006F003FEF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB4911D48006F003FEF8C /* ViewController.swift */; };
 		9C1AB4951D48006F003FEF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4931D48006F003FEF8C /* Main.storyboard */; };
 		9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4961D48006F003FEF8C /* Assets.xcassets */; };
 		9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */; };
@@ -23,11 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02DD748C1D491D5000BA35BF /* DialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
+		02DD748C1D491D5000BA35BF /* HolyDialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyDialView.swift; sourceTree = "<group>"; };
 		02DD748E1D491F3A00BA35BF /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		9C113A541D4A1B5C00DD19E7 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		9C113A561D4A1CB500DD19E7 /* HolyNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyNavigationBar.swift; sourceTree = "<group>"; };
+		9C113A591D4A1EFA00DD19E7 /* HolyStatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyStatusBar.swift; sourceTree = "<group>"; };
 		9C1AB48C1D48006F003FEF8C /* Holy Cow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holy Cow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C1AB4911D48006F003FEF8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C1AB4941D48006F003FEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C1AB4961D48006F003FEF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1AB4991D48006F003FEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,8 +60,19 @@
 			children = (
 				02DD748E1D491F3A00BA35BF /* Range.swift */,
 				9C1AB4AC1D48071A003FEF8C /* UIColor.swift */,
+				9C113A541D4A1B5C00DD19E7 /* UINavigationBar.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		9C113A581D4A1CB900DD19E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02DD748C1D491D5000BA35BF /* HolyDialView.swift */,
+				9C113A561D4A1CB500DD19E7 /* HolyNavigationBar.swift */,
+				9C113A591D4A1EFA00DD19E7 /* HolyStatusBar.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		9C1AB4831D48006F003FEF8C = {
@@ -79,10 +94,9 @@
 		9C1AB48E1D48006F003FEF8C /* Holy Cow */ = {
 			isa = PBXGroup;
 			children = (
+				9C113A581D4A1CB900DD19E7 /* Views */,
 				9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */,
-				9C1AB4911D48006F003FEF8C /* ViewController.swift */,
 				9C1AB4931D48006F003FEF8C /* Main.storyboard */,
-				02DD748C1D491D5000BA35BF /* DialView.swift */,
 				02DD74901D491F4000BA35BF /* Extensions */,
 				9C1AB4961D48006F003FEF8C /* Assets.xcassets */,
 				9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */,
@@ -180,9 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1AB4921D48006F003FEF8C /* ViewController.swift in Sources */,
+				9C113A571D4A1CB500DD19E7 /* HolyNavigationBar.swift in Sources */,
 				9C1AB4AD1D48071A003FEF8C /* UIColor.swift in Sources */,
-				02DD748D1D491D5000BA35BF /* DialView.swift in Sources */,
+				9C113A5A1D4A1EFA00DD19E7 /* HolyStatusBar.swift in Sources */,
+				02DD748D1D491D5000BA35BF /* HolyDialView.swift in Sources */,
+				9C113A551D4A1B5C00DD19E7 /* UINavigationBar.swift in Sources */,
 				9C1AB4901D48006F003FEF8C /* AppDelegate.swift in Sources */,
 				02DD748F1D491F3A00BA35BF /* Range.swift in Sources */,
 			);

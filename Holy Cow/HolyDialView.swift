@@ -1,5 +1,5 @@
 //
-//  DialView.swift
+//  HolyDialView.swift
 //  Holy Cow
 //
 //  Created by Tobin Bell on 7/27/16.
@@ -8,16 +8,18 @@
 
 import UIKit
 
-@IBDesignable class DialView: UIView {
+@IBDesignable class HolyDialView: UIView {
 
     @IBInspectable var min: Double = 0 {
         didSet {
+            if min > max { max = min }
             value = (min...max).clip(value)
         }
     }
     
     @IBInspectable var max: Double = 1 {
         didSet {
+            if max < min { min = max }
             value = (min...max).clip(value)
         }
     }
@@ -38,7 +40,7 @@ import UIKit
         let innerRadius = bounds.width / 2 - fillThickness
         let fillRadius = bounds.width / 2 - fillThickness / 2
         
-        let progress = (value - min) / (max - min)
+        let progress = min == max ? 1 : (value - min) / (max - min)
         let fillStart = -M_PI_2
         let fillEnd = fillStart + progress * 2 * M_PI
         

@@ -25,6 +25,10 @@ extension UIColor {
         return UIColor(red: 32, green: 31, blue: 26)
     }
     
+    class var holyWhite: UIColor {
+        return UIColor(red: 255, green: 255, blue: 255)
+    }
+    
     class var holyPurple: UIColor {
         return UIColor(red: 100, green: 82, blue: 168)
     }
