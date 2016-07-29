@@ -33,6 +33,7 @@
 		9CBFF7AE1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A61D4A6CE500BA35BF /* GT-Walsheim-Pro-Regular.ttf */; };
 		9CBFF7AF1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A71D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf */; };
 		9CBFF7B01D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74A81D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Light.ttf */; };
+		9CBFF7B21D4AD95A00A6DD2A /* HolyTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBFF7B11D4AD95A00A6DD2A /* HolyTabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		9C1AB4991D48006F003FEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1AB49B1D48006F003FEF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1AB4AC1D48071A003FEF8C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		9CBFF7B11D4AD95A00A6DD2A /* HolyTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyTabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				02DD748C1D491D5000BA35BF /* HolyDialView.swift */,
 				9C113A561D4A1CB500DD19E7 /* HolyNavigationBar.swift */,
 				9C113A591D4A1EFA00DD19E7 /* HolyStatusBar.swift */,
+				9CBFF7B11D4AD95A00A6DD2A /* HolyTabBarItem.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				02DD748D1D491D5000BA35BF /* HolyDialView.swift in Sources */,
 				9C113A551D4A1B5C00DD19E7 /* UINavigationBar.swift in Sources */,
 				9C1AB4901D48006F003FEF8C /* AppDelegate.swift in Sources */,
+				9CBFF7B21D4AD95A00A6DD2A /* HolyTabBarItem.swift in Sources */,
 				02DD748F1D491F3A00BA35BF /* Range.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

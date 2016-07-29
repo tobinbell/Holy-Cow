@@ -22,6 +22,9 @@ class HolyNavigationBar: UINavigationBar {
     
     private func setup() {
         
+        // Hide the bottom border to match the flat design.
+        borderView?.hidden = true
+        
         // Set our background color.
         barTintColor = .holyGreen
         
@@ -37,5 +40,4 @@ class HolyNavigationBar: UINavigationBar {
                                    NSForegroundColorAttributeName: titleColor]
         }
     }
-
 }

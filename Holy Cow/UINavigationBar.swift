@@ -8,19 +8,24 @@
 
 import UIKit
 
-//extension UINavigationBar {
-//    
-//    public override func awakeFromNib() {
-//        super.awakeFromNib()
-//        
-//        if titleTextAttributes != nil {
-//            titleTextAttributes![NSFontAttributeName] = UIFont(name: "Poppins-Medium", size: 22)!
-//            titleTextAttributes![NSForegroundColorAttributeName] = UIColor.holyWhite
-//        } else {
-//            titleTextAttributes = [NSFontAttributeName: UIFont(name: "Poppins-Medium", size: 22)!,
-//                                   NSForegroundColorAttributeName: UIColor.holyWhite]
-//        }
-//    }
-//    
-//}
-//
+extension UINavigationBar {
+    
+    var borderView: UIView? {
+        return findBorderView(in: self)
+    }
+    
+    // Searches for the bottom border view in a navigation bar view.
+    // It does this by recursively looking for an image view whose height is 1 point or less.
+    private func findBorderView(in view: UIView) -> UIView? {
+        if view is UIImageView && view.bounds.height <= 1.0 {
+            return view
+        }
+        for subview in view.subviews {
+            if let borderView = findBorderView(in: subview) {
+                return borderView
+            }
+        }
+        return nil
+    }
+}
+
