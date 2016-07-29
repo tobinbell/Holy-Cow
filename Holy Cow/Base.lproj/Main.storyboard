@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBn-af-43Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502.5" y="1475.5"/>
+            <point key="canvasLocation" x="502.5" y="1883.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1g8-M4-aN3">
@@ -407,7 +407,28 @@ water</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5n-Zx-gf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502.5" y="50.5"/>
+            <point key="canvasLocation" x="502.5" y="471.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0VB-Fg-wNY">
+            <objects>
+                <viewController id="jFF-VO-Hd7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e4q-vL-Erf"/>
+                        <viewControllerLayoutGuide type="bottom" id="qJu-5e-qW5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qFO-Yz-5Cf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="CalendarIcon" selectedImage="CalendarIconFilled" id="l8c-hI-nAc">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rbe-dS-Uk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866" y="-17"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eQR-uN-fIf">
@@ -428,7 +449,7 @@ water</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hs-fl-Dw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502.5" y="728.5"/>
+            <point key="canvasLocation" x="502.5" y="1176.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AzG-hd-k7R">
@@ -444,6 +465,7 @@ water</string>
                     </tabBar>
                     <connections>
                         <segue destination="4an-Do-ScV" kind="relationship" relationship="viewControllers" id="ez4-UF-MqU"/>
+                        <segue destination="jFF-VO-Hd7" kind="relationship" relationship="viewControllers" id="ACG-WC-MiB"/>
                         <segue destination="x6d-2j-bxb" kind="relationship" relationship="viewControllers" id="mMV-vf-4D3"/>
                         <segue destination="AH3-KQ-vq6" kind="relationship" relationship="viewControllers" id="h1U-Wq-7nG"/>
                         <segue destination="jeM-bC-qOW" kind="relationship" relationship="viewControllers" id="v32-I0-5qx"/>
@@ -455,6 +477,8 @@ water</string>
         </scene>
     </scenes>
     <resources>
+        <image name="CalendarIcon" width="25" height="25"/>
+        <image name="CalendarIconFilled" width="25" height="25"/>
         <image name="FriendsIcon" width="37" height="25"/>
         <image name="FriendsIconFilled" width="37" height="25"/>
         <image name="NewsIcon" width="32" height="25"/>
@@ -463,7 +487,7 @@ water</string>
         <image name="UserIcon" width="25" height="25"/>
         <image name="UserIconFilled" width="25" height="25"/>
         <image name="UtensilsIcon" width="15" height="25"/>
-        <image name="UtensilsIconFilled" width="14" height="25"/>
+        <image name="UtensilsIconFilled" width="15" height="25"/>
         <image name="WaterIcon" width="66" height="84"/>
     </resources>
 </document>
