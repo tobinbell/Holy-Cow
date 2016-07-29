@@ -43,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="608" y="619"/>
         </scene>
-        <!--My Impact-->
+        <!--View Controller-->
         <scene sceneID="1g8-M4-aN3">
             <objects>
                 <viewController id="4an-Do-ScV" sceneMemberID="viewController">
@@ -377,7 +377,9 @@ water</string>
                             <constraint firstItem="xyf-w2-TSD" firstAttribute="top" secondItem="Yta-eR-dax" secondAttribute="bottom" id="z0M-bu-kBu"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Impact" image="UserIcon" selectedImage="UserIconFilled" id="fHM-Fe-ZrQ" customClass="HolyTabBarItem" customModule="Holy_Cow" customModuleProvider="target"/>
+                    <tabBarItem key="tabBarItem" title="" image="UserIcon" selectedImage="UserIconFilled" id="fHM-Fe-ZrQ" customClass="HolyTabBarItem" customModule="Holy_Cow" customModuleProvider="target">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpn-2B-uM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -388,7 +390,7 @@ water</string>
         <scene sceneID="AzG-hd-k7R">
             <objects>
                 <tabBarController id="V6y-nM-kDD" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="22D-F9-Eqb">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="22D-F9-Eqb" customClass="HolyTabBar" customModule="Holy_Cow" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

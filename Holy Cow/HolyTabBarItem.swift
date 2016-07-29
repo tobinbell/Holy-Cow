@@ -2,7 +2,7 @@
 //  HolyTabBarItem.swift
 //  Holy Cow
 //
-//  Created by Isabel Taswell on 7/28/16.
+//  Created by Tobin Bell on 7/28/16.
 //  Copyright © 2016 Tobin Bell. All rights reserved.
 //
 
@@ -22,7 +22,7 @@ class HolyTabBarItem: UITabBarItem {
     
     private func setup() {
         // Set our font.
-        let titleFont = UIFont(name: "GTWalsheimPro-Regular", size: 10)!
+        let titleFont = UIFont(name: "GTWalsheimPro-Regular", size: 11)!
         setTitleTextAttributes([NSFontAttributeName: titleFont], forState: [])
     }
 }
