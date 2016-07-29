@@ -407,7 +407,7 @@ water</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hs-fl-Dw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502.5" y="95.5"/>
+            <point key="canvasLocation" x="502.5" y="234.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AzG-hd-k7R">
@@ -435,8 +435,8 @@ water</string>
     <resources>
         <image name="FriendsIcon" width="37" height="25"/>
         <image name="FriendsIconFilled" width="37" height="25"/>
-        <image name="NewsIcon" width="32" height="24"/>
-        <image name="NewsIconFilled" width="32" height="24"/>
+        <image name="NewsIcon" width="32" height="25"/>
+        <image name="NewsIconFilled" width="32" height="25"/>
         <image name="TreeIcon" width="61" height="84"/>
         <image name="UserIcon" width="25" height="25"/>
         <image name="UserIconFilled" width="25" height="25"/>
