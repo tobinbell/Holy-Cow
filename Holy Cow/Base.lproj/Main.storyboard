@@ -16,6 +16,8 @@
             <string>GTWalsheimPro-Medium</string>
             <string>GTWalsheimPro-Medium</string>
             <string>GTWalsheimPro-Medium</string>
+            <string>GTWalsheimPro-Medium</string>
+            <string>GTWalsheimPro-Medium</string>
         </mutableArray>
         <mutableArray key="GT-Walsheim-Pro-Regular.ttf">
             <string>GTWalsheimPro-Regular</string>
@@ -342,6 +344,38 @@ trees</string>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mKk-KM-gzO">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxb-re-Kaw">
+                                            <rect key="frame" x="51" y="7" width="86" height="30"/>
+                                            <fontDescription key="fontDescription" name="GTWalsheimPro-Medium" family="GT Walsheim Pro" pointSize="18"/>
+                                            <state key="normal" title="this month">
+                                                <color key="titleColor" red="0.29803921570000003" green="0.77647058820000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jC-Cf-X3q">
+                                            <rect key="frame" x="251" y="7" width="61" height="30"/>
+                                            <fontDescription key="fontDescription" name="GTWalsheimPro-Medium" family="GT Walsheim Pro" pointSize="18"/>
+                                            <state key="normal" title="all time">
+                                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DLC-IU-cAg" userLabel="Selected">
+                                            <rect key="frame" x="51" y="29" width="86" height="3"/>
+                                            <color key="backgroundColor" red="0.29803921570000003" green="0.77647058820000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="3" id="KKB-9I-Z4R"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="DLC-IU-cAg" firstAttribute="leading" secondItem="nxb-re-Kaw" secondAttribute="leading" id="5jS-AA-D9l"/>
+                                        <constraint firstItem="DLC-IU-cAg" firstAttribute="bottom" secondItem="nxb-re-Kaw" secondAttribute="bottom" constant="-5" id="7M2-Yr-L6C"/>
+                                        <constraint firstItem="nxb-re-Kaw" firstAttribute="centerY" secondItem="mKk-KM-gzO" secondAttribute="centerY" id="LCE-me-enf"/>
+                                        <constraint firstItem="7jC-Cf-X3q" firstAttribute="centerY" secondItem="mKk-KM-gzO" secondAttribute="centerY" id="ONq-lX-LuR"/>
+                                        <constraint firstItem="DLC-IU-cAg" firstAttribute="trailing" secondItem="nxb-re-Kaw" secondAttribute="trailing" id="gSM-u6-HPr"/>
+                                        <constraint firstItem="7jC-Cf-X3q" firstAttribute="centerX" secondItem="mKk-KM-gzO" secondAttribute="trailing" multiplier="0.75" id="mHv-Bg-qHL"/>
+                                        <constraint firstItem="nxb-re-Kaw" firstAttribute="centerX" secondItem="mKk-KM-gzO" secondAttribute="trailing" multiplier="0.25" id="pn2-xp-LE7"/>
+                                    </constraints>
                                 </view>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="far-y9-hO2"/>
