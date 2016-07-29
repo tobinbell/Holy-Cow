@@ -79,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02731CC11D4BADF60010228B /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */,
+				9C1AB4931D48006F003FEF8C /* Main.storyboard */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
 		02DD74901D491F4000BA35BF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,12 +128,11 @@
 		9C1AB48E1D48006F003FEF8C /* Holy Cow */ = {
 			isa = PBXGroup;
 			children = (
-				9C113A581D4A1CB900DD19E7 /* Views */,
 				9C1AB48F1D48006F003FEF8C /* AppDelegate.swift */,
-				9C1AB4931D48006F003FEF8C /* Main.storyboard */,
+				9C113A581D4A1CB900DD19E7 /* Views */,
+				02731CC11D4BADF60010228B /* Interfaces */,
 				02DD74901D491F4000BA35BF /* Extensions */,
 				9C1AB4961D48006F003FEF8C /* Assets.xcassets */,
-				9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */,
 				9C1AB49B1D48006F003FEF8C /* Info.plist */,
 				9C1AB4AB1D4800AF003FEF8C /* Fonts */,
 			);
