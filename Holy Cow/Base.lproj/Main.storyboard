@@ -24,7 +24,7 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--My Impact-->
+        <!--View Controller-->
         <scene sceneID="3No-IH-WBa">
             <objects>
                 <viewController id="jeM-bC-qOW" sceneMemberID="viewController">
@@ -37,7 +37,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Impact" image="UserIcon" selectedImage="UserIconFilled" id="a2B-Sz-eOz"/>
+                    <tabBarItem key="tabBarItem" title="" image="FriendsIcon" selectedImage="FriendsIconFilled" id="a2B-Sz-eOz">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBn-af-43Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -408,6 +410,8 @@ water</string>
         </scene>
     </scenes>
     <resources>
+        <image name="FriendsIcon" width="25" height="18"/>
+        <image name="FriendsIconFilled" width="25" height="18"/>
         <image name="TreeIcon" width="61" height="84"/>
         <image name="UserIcon" width="25" height="25"/>
         <image name="UserIconFilled" width="25" height="25"/>
