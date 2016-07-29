@@ -33,7 +33,7 @@
                         <viewControllerLayoutGuide type="bottom" id="q3q-me-88G"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fcE-ht-cX5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBn-af-43Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="608" y="619"/>
+            <point key="canvasLocation" x="502.5" y="1080.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1g8-M4-aN3">
@@ -386,12 +386,34 @@ water</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpn-2B-uM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502.5" y="-81.5"/>
+            <point key="canvasLocation" x="502.5" y="-653.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eQR-uN-fIf">
+            <objects>
+                <viewController id="AH3-KQ-vq6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aXw-IG-3gp"/>
+                        <viewControllerLayoutGuide type="bottom" id="W22-eV-Udd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dmD-eT-3Xy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="NewsIcon" selectedImage="NewsIconFilled" id="CwR-LU-NZn">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Hs-fl-Dw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502.5" y="95.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AzG-hd-k7R">
             <objects>
                 <tabBarController id="V6y-nM-kDD" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="22D-F9-Eqb" customClass="HolyTabBar" customModule="Holy_Cow" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -401,6 +423,7 @@ water</string>
                     </tabBar>
                     <connections>
                         <segue destination="4an-Do-ScV" kind="relationship" relationship="viewControllers" id="ez4-UF-MqU"/>
+                        <segue destination="AH3-KQ-vq6" kind="relationship" relationship="viewControllers" id="h1U-Wq-7nG"/>
                         <segue destination="jeM-bC-qOW" kind="relationship" relationship="viewControllers" id="v32-I0-5qx"/>
                     </connections>
                 </tabBarController>
@@ -412,6 +435,8 @@ water</string>
     <resources>
         <image name="FriendsIcon" width="37" height="25"/>
         <image name="FriendsIconFilled" width="37" height="25"/>
+        <image name="NewsIcon" width="32" height="24"/>
+        <image name="NewsIconFilled" width="32" height="24"/>
         <image name="TreeIcon" width="61" height="84"/>
         <image name="UserIcon" width="25" height="25"/>
         <image name="UserIconFilled" width="25" height="25"/>
