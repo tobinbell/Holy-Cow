@@ -16,6 +16,7 @@
 		9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4961D48006F003FEF8C /* Assets.xcassets */; };
 		9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */; };
 		9C1AB4AD1D48071A003FEF8C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AB4AC1D48071A003FEF8C /* UIColor.swift */; };
+		9C3DF4761D4D2C5B00D3D021 /* Recipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3DF4741D4D2C5B00D3D021 /* Recipes.storyboard */; };
 		9CBFF7A11D4AC0C900A6DD2A /* GT-Walsheim-Pro-Black-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD74991D4A6CE500BA35BF /* GT-Walsheim-Pro-Black-Oblique.ttf */; };
 		9CBFF7A21D4AC0C900A6DD2A /* GT-Walsheim-Pro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749A1D4A6CE500BA35BF /* GT-Walsheim-Pro-Black.ttf */; };
 		9CBFF7A31D4AC0C900A6DD2A /* GT-Walsheim-Pro-Ultra-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DD749B1D4A6CE500BA35BF /* GT-Walsheim-Pro-Ultra-Bold.ttf */; };
@@ -64,6 +65,7 @@
 		9C1AB4991D48006F003FEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1AB49B1D48006F003FEF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1AB4AC1D48071A003FEF8C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		9C3DF4751D4D2C5B00D3D021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Recipes.storyboard; sourceTree = "<group>"; };
 		9CBFF7B11D4AD95A00A6DD2A /* HolyTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyTabBarItem.swift; sourceTree = "<group>"; };
 		9CBFF7B51D4ADC3100A6DD2A /* HolyTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 			children = (
 				9C1AB4981D48006F003FEF8C /* LaunchScreen.storyboard */,
 				9C1AB4931D48006F003FEF8C /* Main.storyboard */,
+				9C3DF4741D4D2C5B00D3D021 /* Recipes.storyboard */,
 			);
 			name = Interfaces;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				9CBFF7A51D4AC0C900A6DD2A /* GT-Walsheim-Pro-Bold-Oblique.ttf in Resources */,
 				9C1AB49A1D48006F003FEF8C /* LaunchScreen.storyboard in Resources */,
 				9CBFF7AE1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular.ttf in Resources */,
+				9C3DF4761D4D2C5B00D3D021 /* Recipes.storyboard in Resources */,
 				9CBFF7A71D4AC0C900A6DD2A /* GT-Walsheim-Pro-Thin-Oblique.ttf in Resources */,
 				9CBFF7AA1D4AC0C900A6DD2A /* GT-Walsheim-Pro-Regular-Oblique.ttf in Resources */,
 				9C1AB4971D48006F003FEF8C /* Assets.xcassets in Resources */,
@@ -277,6 +281,14 @@
 				9C1AB4991D48006F003FEF8C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C3DF4741D4D2C5B00D3D021 /* Recipes.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C3DF4751D4D2C5B00D3D021 /* Base */,
+			);
+			name = Recipes.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
