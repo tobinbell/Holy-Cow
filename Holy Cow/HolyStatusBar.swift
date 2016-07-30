@@ -24,5 +24,4 @@ class HolyStatusBar: UIView {
         // Set our background color.
         backgroundColor = .holyGreen
     }
-
 }

@@ -23,7 +23,8 @@ class HolyNavigationBar: UINavigationBar {
     private func setup() {
         
         // Hide the bottom border to match the flat design.
-        clipsToBounds = true
+        setBackgroundImage(UIImage(), forBarMetrics: .Default)
+        shadowImage = UIImage()
         
         // Set our background color.
         barTintColor = .holyGreen

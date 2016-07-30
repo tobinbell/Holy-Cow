@@ -413,7 +413,7 @@ trees</string>
                             <constraint firstItem="xyf-w2-TSD" firstAttribute="top" secondItem="Yta-eR-dax" secondAttribute="bottom" id="z0M-bu-kBu"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="UserIcon" selectedImage="UserIconFilled" id="fHM-Fe-ZrQ" customClass="HolyTabBarItem" customModule="Holy_Cow" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="" image="UserIcon" selectedImage="UserIconFilled" id="fHM-Fe-ZrQ">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -447,13 +447,13 @@ trees</string>
         <scene sceneID="3uD-uR-ul4">
             <objects>
                 <viewControllerPlaceholder storyboardName="Recipes" id="gJ4-dN-KhL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="UtensilsIcon" selectedImage="UtensilsIconFilled" id="bEI-oR-ehe">
+                    <tabBarItem key="tabBarItem" title="" image="UtensilsIcon" selectedImage="UtensilsIconFilled" id="RQL-5a-gGY">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xSf-TH-d6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="168" y="235"/>
+            <point key="canvasLocation" x="114" y="235"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eQR-uN-fIf">
@@ -481,19 +481,17 @@ trees</string>
             <objects>
                 <tabBarController id="V6y-nM-kDD" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="22D-F9-Eqb" customClass="HolyTabBar" customModule="Holy_Cow" customModuleProvider="target">
+                    <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" id="22D-F9-Eqb" customClass="HolyTabBar" customModule="Holy_Cow" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" red="0.29803921570000003" green="0.77647058820000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="selectedImageTintColor" red="0.29803921570000003" green="0.77647058820000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="4an-Do-ScV" kind="relationship" relationship="viewControllers" id="ez4-UF-MqU"/>
                         <segue destination="jFF-VO-Hd7" kind="relationship" relationship="viewControllers" id="ACG-WC-MiB"/>
+                        <segue destination="gJ4-dN-KhL" kind="relationship" relationship="viewControllers" id="bM5-3R-gFr"/>
                         <segue destination="AH3-KQ-vq6" kind="relationship" relationship="viewControllers" id="h1U-Wq-7nG"/>
                         <segue destination="jeM-bC-qOW" kind="relationship" relationship="viewControllers" id="v32-I0-5qx"/>
-                        <segue destination="gJ4-dN-KhL" kind="relationship" relationship="viewControllers" id="N7R-Lx-JNB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrI-Au-dzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
