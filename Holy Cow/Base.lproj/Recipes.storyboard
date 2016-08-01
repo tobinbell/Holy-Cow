@@ -54,7 +54,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-ff-5Rg" userLabel="Breakfast">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BreakfastPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="AfS-kI-1SY" userLabel="Image">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BreakfastPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="AfS-kI-1SY" userLabel="Image">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
                                     </imageView>
                                     <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7N7-om-mOX" userLabel="Overlay">
@@ -82,10 +82,41 @@
                                     <constraint firstItem="7N7-om-mOX" firstAttribute="leading" secondItem="ru4-ff-5Rg" secondAttribute="leading" id="zfZ-va-P8d"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9nv-ar-fmZ" userLabel="Lunch">
+                                <rect key="frame" x="0.0" y="140" width="375" height="135"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LunchPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="hOP-O1-8bH" userLabel="Image">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                    </imageView>
+                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzv-bF-tzj" userLabel="Overlay">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mH1-gp-2ta" userLabel="Label">
+                                        <rect key="frame" x="157" y="50" width="62" height="36"/>
+                                        <fontDescription key="fontDescription" name="GTWalsheimPro-Regular" family="GT Walsheim Pro" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gzv-bF-tzj" secondAttribute="bottom" id="CPF-oj-0Xo"/>
+                                    <constraint firstItem="mH1-gp-2ta" firstAttribute="centerX" secondItem="9nv-ar-fmZ" secondAttribute="centerX" id="Er2-Gy-ztV"/>
+                                    <constraint firstItem="hOP-O1-8bH" firstAttribute="top" secondItem="9nv-ar-fmZ" secondAttribute="top" id="JtJ-WX-Sx6"/>
+                                    <constraint firstAttribute="trailing" secondItem="gzv-bF-tzj" secondAttribute="trailing" id="LQS-Lx-w1L"/>
+                                    <constraint firstItem="hOP-O1-8bH" firstAttribute="leading" secondItem="9nv-ar-fmZ" secondAttribute="leading" id="SR9-s0-eYr"/>
+                                    <constraint firstItem="mH1-gp-2ta" firstAttribute="centerY" secondItem="9nv-ar-fmZ" secondAttribute="centerY" id="abv-VD-YE6"/>
+                                    <constraint firstItem="gzv-bF-tzj" firstAttribute="top" secondItem="9nv-ar-fmZ" secondAttribute="top" id="hMe-rx-Wgn"/>
+                                    <constraint firstAttribute="bottom" secondItem="hOP-O1-8bH" secondAttribute="bottom" id="o5f-Hg-LFF"/>
+                                    <constraint firstItem="gzv-bF-tzj" firstAttribute="leading" secondItem="9nv-ar-fmZ" secondAttribute="leading" id="uWz-9e-DCn"/>
+                                    <constraint firstAttribute="trailing" secondItem="hOP-O1-8bH" secondAttribute="trailing" id="usu-iV-ozZ"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXr-qW-seM" userLabel="Dinner">
                                 <rect key="frame" x="0.0" y="279" width="375" height="136"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DinnerPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="AJD-5V-p7j" userLabel="Image">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DinnerPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="AJD-5V-p7j" userLabel="Image">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
                                     </imageView>
                                     <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMX-Qs-52h" userLabel="Overlay">
@@ -116,7 +147,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXt-x5-MSA" userLabel="Shopping List">
                                 <rect key="frame" x="0.0" y="419" width="375" height="135"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShoppingPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="LfC-fn-0fx" userLabel="Image">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShoppingPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="LfC-fn-0fx" userLabel="Image">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
                                     </imageView>
                                     <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhG-Oq-cT9" userLabel="Overlay">
@@ -142,37 +173,6 @@
                                     <constraint firstItem="LfC-fn-0fx" firstAttribute="leading" secondItem="hXt-x5-MSA" secondAttribute="leading" id="tT1-U6-MAW"/>
                                     <constraint firstAttribute="bottom" secondItem="bhG-Oq-cT9" secondAttribute="bottom" id="tdi-Z5-vGM"/>
                                     <constraint firstAttribute="bottom" secondItem="LfC-fn-0fx" secondAttribute="bottom" id="xgZ-gm-Oaf"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9nv-ar-fmZ" userLabel="Lunch">
-                                <rect key="frame" x="0.0" y="140" width="375" height="135"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LunchPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="hOP-O1-8bH" userLabel="Image">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
-                                    </imageView>
-                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzv-bF-tzj" userLabel="Overlay">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mH1-gp-2ta" userLabel="Label">
-                                        <rect key="frame" x="156" y="50" width="62" height="36"/>
-                                        <fontDescription key="fontDescription" name="GTWalsheimPro-Regular" family="GT Walsheim Pro" pointSize="25"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="gzv-bF-tzj" secondAttribute="bottom" id="CPF-oj-0Xo"/>
-                                    <constraint firstItem="mH1-gp-2ta" firstAttribute="centerX" secondItem="9nv-ar-fmZ" secondAttribute="centerX" id="Er2-Gy-ztV"/>
-                                    <constraint firstItem="hOP-O1-8bH" firstAttribute="top" secondItem="9nv-ar-fmZ" secondAttribute="top" id="JtJ-WX-Sx6"/>
-                                    <constraint firstAttribute="trailing" secondItem="gzv-bF-tzj" secondAttribute="trailing" id="LQS-Lx-w1L"/>
-                                    <constraint firstItem="hOP-O1-8bH" firstAttribute="leading" secondItem="9nv-ar-fmZ" secondAttribute="leading" id="SR9-s0-eYr"/>
-                                    <constraint firstItem="mH1-gp-2ta" firstAttribute="centerY" secondItem="9nv-ar-fmZ" secondAttribute="centerY" id="abv-VD-YE6"/>
-                                    <constraint firstItem="gzv-bF-tzj" firstAttribute="top" secondItem="9nv-ar-fmZ" secondAttribute="top" id="hMe-rx-Wgn"/>
-                                    <constraint firstAttribute="bottom" secondItem="hOP-O1-8bH" secondAttribute="bottom" id="o5f-Hg-LFF"/>
-                                    <constraint firstItem="gzv-bF-tzj" firstAttribute="leading" secondItem="9nv-ar-fmZ" secondAttribute="leading" id="uWz-9e-DCn"/>
-                                    <constraint firstAttribute="trailing" secondItem="hOP-O1-8bH" secondAttribute="trailing" id="usu-iV-ozZ"/>
                                 </constraints>
                             </view>
                         </subviews>
