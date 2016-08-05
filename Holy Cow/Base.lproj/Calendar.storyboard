@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -43,7 +44,20 @@
                     <view key="view" contentMode="scaleToFill" id="T0y-Uq-rw0">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fC-eh-ZWF" customClass="HolyCalendarView" customModule="Holy_Cow" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9fC-eh-ZWF" secondAttribute="height" id="h7X-G0-MP7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9fC-eh-ZWF" firstAttribute="leading" secondItem="T0y-Uq-rw0" secondAttribute="leading" id="34O-x3-Wdl"/>
+                            <constraint firstItem="9fC-eh-ZWF" firstAttribute="top" secondItem="Oda-lB-F8S" secondAttribute="bottom" id="qJb-h2-fSJ"/>
+                            <constraint firstAttribute="trailing" secondItem="9fC-eh-ZWF" secondAttribute="trailing" id="vqu-6L-an3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="august '16" id="zqw-oa-Jqt">
                         <barButtonItem key="leftBarButtonItem" image="PreviousButton" id="15b-76-Nyf"/>
